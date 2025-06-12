@@ -9,14 +9,9 @@ from DQL import get_artist_id, get_known_users, get_album_id,newest,get_artist_n
 from DML import insert_user_data,insert_song_data,insert_follow_data,insert_favorite_data,insert_playlist_data,insert_playlist_song_data
 
 
-#TOKEN = '7822659394:AAF9MIUzE2dFqBufSNsupAhldhT0r0NHuN8'
-
-
 
 hideboard = ReplyKeyboardRemove()
 
-#channel_cid = -1002295931301
-#admin_id = [111975686]
 
 knownUsers = []  # todo: save these in a file,
 userStep = {}  # so they won't reset every time the bot restarts
